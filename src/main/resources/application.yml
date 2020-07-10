@@ -1,0 +1,16 @@
+server:
+  port:8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/course_mybatis?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+
+
+
+mybatis:
+  mapperLocations: classpath:com.example.springsecurity.mapper/*.xml
+  config-location: classpath:mybatis-config.xml
+
+
